@@ -3,18 +3,18 @@ import Layout from "common/Layout";
 
 // Pages
 
-import Home from "pages/Home";
-import Login from "pages/Login";
+import Products from "pages/Products";
+import Cart from "pages/Cart";
 
 const routes = [
   {
     path: "/",
     element: <Layout />,
     children: [
-      { path: "", element: <Home /> },
+      { path: "", element: <Products /> },
       {
-        path: "/login",
-        element: <Login />,
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },

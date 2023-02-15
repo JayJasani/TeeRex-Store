@@ -1,5 +1,3 @@
-import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRoutes } from "react-router-dom";
 import routes from "./routes";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -15,7 +13,7 @@ function App() {
   return (
     <>
       <HelmetProvider>
-        <Helmet titleTemplate="%s | " defaultTitle="Avani Systems"></Helmet>
+        <Helmet titleTemplate="%s | " defaultTitle="TeeRex Store"></Helmet>
       </HelmetProvider>
       <Routes />
     </>

@@ -2,7 +2,8 @@ import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles(() => ({
   main_layout: {
-    width: "100%",
-    height: "calc(100vh - 80px)",
+    width: "calc(100% - 40px)",
+    padding: "20px",
+    marginTop: "80px",
   },
 }));

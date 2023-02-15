@@ -5,6 +5,10 @@ export const useStyles = makeStyles((theme) => ({
     height: "80px",
     marginLeft: "auto",
     background: "black",
+    position: "fixed",
+    width: "100%",
+    top: 0,
+    zIndex: "9999",
     "& a": {
       textDecoration: "none",
       color: "white",

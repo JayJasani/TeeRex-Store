@@ -26,4 +26,3 @@ export function configureAppStore(preloadedState) {
   let persistor = persistStore(store);
   return { store, persistor };
 }
-  
