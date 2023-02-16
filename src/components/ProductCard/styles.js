@@ -7,9 +7,13 @@ export const useStyles = makeStyles((theme) => ({
     padding: "20px",
     maxWidth: "300px",
     margin: "auto",
+    borderRadius: "20px",
     "& p": {
       fontFamily: "Poppins !important",
       fontSize: "1rem",
+    },
+    "& .MuiButton-root:hover": {
+      borderColor: appColor.black,
     },
   },
   imageHolder: {

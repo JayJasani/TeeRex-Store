@@ -16,4 +16,8 @@ export const useStyles = makeStyles((theme) => ({
       borderBottom: `1px solid ${appColor.black}`,
     },
   },
+  checkFilter: {
+    boxShadow: appColor.boxShadow,
+    borderRadius: "23px",
+  },
 }));
